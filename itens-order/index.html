@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexible Box</title>
+</head>
+<body>
+    <h1>Itens Flexbox</h1>
+    <hr>
+    <h2>order;</h2>
+    <div class="container" style="--h:initial">
+        <div class="item" style="--order:1">A</div>
+        <div class="item" style="--order:3">B</div>
+        <div class="item" style="--order:0">C</div>
+        <div class="item" style="--order:-2">D</div>
+        <div class="item" style="--order:1">E</div>
+    </div>
+    <h2>align-self;</h2>
+    <div class="container" style="--h:300px">
+        <div class="item" style="--align-self:flex-end">A</div>
+        <div class="item" style="--align-self:flex-start">B</div>
+        <div class="item" style="--align-self:center">C</div>
+        <div class="item" style="--align-self:flex-end">D</div>
+        <div class="item" style="--align-self:stretch">E</div>
+    </div>
+</body>
+</html>
